@@ -1,0 +1,5 @@
+Simple ruby script that automatically runs install_name_tool in order modify IDs and framework references for all frameworks and binaries bundled in an OS X application.
+
+NOTE: Script assumes frameworks are stored in ApplicationName.app/Content/Frameworks sub-directory.
+
+Usage: ./FixPrivateFrameworks.rb <Path/to/application.app> <binary_name>
